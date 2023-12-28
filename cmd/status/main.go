@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"os/exec"
 
@@ -10,7 +11,7 @@ import (
 )
 
 var (
-	service = flag.String("service", "", "A service to look for it's status")
+	service = flag.String("svc", "", "A service to look for it's status")
 )
 
 func init() {
@@ -19,6 +20,7 @@ func init() {
 
 func main() {
 	flag.Parse()
+	fmt.Println(*service)
 
 	cmd := exec.Command("systemctl", "is-active", *service)
 	err := cmd.Run()
@@ -27,9 +29,9 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		err = linuxservicestatus.SendMail(*service)
-		if err != nil {
-			log.Fatal(err)
-		}
+		// err = linuxservicestatus.SendMail(*service)
+		// if err != nil {
+		// 	log.Fatal(err)
+		// }
 	}
 }
