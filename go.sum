@@ -1,5 +1,7 @@
 github.com/Jkarage/beemafrica v1.0.1 h1:A+RnDRY3K8PD2ROAFYpyPwWdnE1N6PM0EMZu8hJY1vg=
 github.com/Jkarage/beemafrica v1.0.1/go.mod h1:3HWEJ95OeusbwdJJeKBhI6iQB8ebt//Aanl470wHX/I=
+github.com/Jkarage/nextsms v0.0.0-20240103102332-d14dd424125c h1:jTvTkPq3is+oBG0+X/3i8V2HybYiODc9pzTikjDUzQs=
+github.com/Jkarage/nextsms v0.0.0-20240103102332-d14dd424125c/go.mod h1:/zmbW67bJvCuN5TrZWp1qGDwAd8FXNwQgE9gYKtkwl8=
 github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
 gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc h1:2gGKlE2+asNV9m7xrywl36YYNnBG5ZQ0r/BOOxqPpmk=

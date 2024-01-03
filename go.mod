@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/Jkarage/nextsms v0.0.0-20240103102332-d14dd424125c // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 )
