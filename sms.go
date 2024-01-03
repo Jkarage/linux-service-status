@@ -5,6 +5,7 @@ import (
 	"time"
 
 	"github.com/Jkarage/beemafrica"
+	"github.com/Jkarage/nextsms"
 )
 
 func SendSMS(service string) error {
@@ -20,9 +21,13 @@ func SendSMS(service string) error {
 
 // sendsms using nextsms
 func SendSSMS(service string) error {
-	// message := fmt.Sprintf("Service %s is not currently in it's active state, Current time: %v", service, time.Now())
-	// client := nextsms.New()
+	message := fmt.Sprintf("Service %s is not currently in it's active state, Current time: %v", service, time.Now())
+	client := nextsms.New()
 
-	// client.SendSSMS()
+	_, err := client.SendSSMS("255713507067", message, "")
+	if err != nil {
+		return err
+	}
+
 	return nil
 }
