@@ -6,7 +6,7 @@ import (
 	"log"
 	"os/exec"
 
-	linuxservicestatus "github.com/jkarage/linux-service-status"
+	"github.com/Jkarage/linuxservicestatus"
 	"github.com/joho/godotenv"
 )
 

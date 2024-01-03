@@ -17,3 +17,12 @@ func SendSMS(service string) error {
 
 	return nil
 }
+
+// sendsms using nextsms
+func SendSSMS(service string) error {
+	// message := fmt.Sprintf("Service %s is not currently in it's active state, Current time: %v", service, time.Now())
+	// client := nextsms.New()
+
+	// client.SendSSMS()
+	return nil
+}
